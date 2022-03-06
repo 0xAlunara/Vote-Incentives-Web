@@ -1,0 +1,1079 @@
+<!DOCTYPE html><html lang="en"><head><link rel="stylesheet" href="/fonts/Inter/inter.css"/><link rel="stylesheet" href="/fonts/Druk/Druk.css"/><link rel="stylesheet" href="/fonts/GrtskGiga/stylesheet.css"/><meta charSet="utf-8"/><title>bribe.crv.finance</title><meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/><link rel="icon" href="/favicon.jpg"/><link rel="preload" href="/fonts/Inter/Inter-Regular.ttf" as="font" crossorigin=""/><link rel="preload" href="/fonts/Inter/Inter-Bold.ttf" as="font" crossorigin=""/><meta name="description" content="bribe.crv.finance"/><meta name="og:title" content="bribe.crv.finance"/><meta name="twitter:card" content="summary_large_image"/><meta name="next-head-count" content="9"/><link rel="preload" href="/_next/static/css/44826704e111239d029d.css" as="style"/><link rel="stylesheet" href="/_next/static/css/44826704e111239d029d.css" data-n-g=""/><link rel="preload" href="/_next/static/css/e1541985c2415a089cb2.css" as="style"/><link rel="stylesheet" href="/_next/static/css/e1541985c2415a089cb2.css" data-n-p=""/><noscript data-n-css=""></noscript><link rel="preload" href="/_next/static/chunks/webpack-e20b507b9ac9d1410c6e.js" as="script"/><link rel="preload" href="/_next/static/chunks/framework.655df916c99592c26abe.js" as="script"/><link rel="preload" href="/_next/static/chunks/commons.b2cb681b3fc089041434.js" as="script"/><link rel="preload" href="/_next/static/chunks/main-79c26920968226f18fdc.js" as="script"/><link rel="preload" href="/_next/static/chunks/0975f2b1.c8834a08a1186abe0142.js" as="script"/><link rel="preload" href="/_next/static/chunks/b0fe1cb196a110106ce17308c9dd4965908076f6.286a4e9cbeceddd23a22.js" as="script"/><link rel="preload" href="/_next/static/chunks/c85d64946732f605d0270a61455b4623d9754b90.1498bb6ff00900086508.js" as="script"/><link rel="preload" href="/_next/static/chunks/pages/_app-94cb0d17ca130059d7d8.js" as="script"/><link rel="preload" href="/_next/static/chunks/75fc9c18.851b46342beeff380cfd.js" as="script"/><link rel="preload" href="/_next/static/chunks/5438ced7320515bfb1ccd73ffd4f55532982f9e4.c9feed9ab9f5d96532cf.js" as="script"/><link rel="preload" href="/_next/static/chunks/e6a58c2ea38825584fc312156e5f22ec8d2e9687.9362fa29b7b04efc9628.js" as="script"/><link rel="preload" href="/_next/static/chunks/pages/addVote-9bc1f637fc475ea81333.js" as="script"/><style id="jss-server-side">html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+strong, b {
+  font-weight: 700;
+}
+body {
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0;
+  font-size: 0.875rem;
+  font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 1.43;
+  background-color: #fff;
+}
+@media print {
+  body {
+    background-color: #fff;
+  }
+}
+body::backdrop {
+  background-color: #fff;
+}
+.MuiSvgIcon-root-99 {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.MuiSvgIcon-colorPrimary-100 {
+  color: #2F80ED;
+}
+.MuiSvgIcon-colorSecondary-101 {
+  color: #f50057;
+}
+.MuiSvgIcon-colorAction-102 {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiSvgIcon-colorError-103 {
+  color: #f44336;
+}
+.MuiSvgIcon-colorDisabled-104 {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiSvgIcon-fontSizeInherit-105 {
+  font-size: inherit;
+}
+.MuiSvgIcon-fontSizeSmall-106 {
+  font-size: 1.25rem;
+}
+.MuiSvgIcon-fontSizeLarge-107 {
+  font-size: 2.1875rem;
+}
+.MuiPaper-root-2 {
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+}
+.MuiPaper-rounded-3 {
+  border-radius: 16px;
+}
+.MuiPaper-outlined-4 {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation0-5 {
+  box-shadow: none;
+}
+.MuiPaper-elevation1-6 {
+  box-shadow: 0px 7px 7px #0000000A;;
+  -moz-box-shadow: 0px 7px 7px #0000000A;;
+  -webkit-box-shadow: 0px 7px 7px #0000000A;;
+}
+.MuiPaper-elevation2-7 {
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation3-8 {
+  box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation4-9 {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation5-10 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation6-11 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation7-12 {
+  box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation8-13 {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation9-14 {
+  box-shadow: 0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation10-15 {
+  box-shadow: 0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation11-16 {
+  box-shadow: 0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation12-17 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation13-18 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation14-19 {
+  box-shadow: 0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation15-20 {
+  box-shadow: 0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation16-21 {
+  box-shadow: 0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation17-22 {
+  box-shadow: 0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation18-23 {
+  box-shadow: 0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation19-24 {
+  box-shadow: 0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation20-25 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation21-26 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation22-27 {
+  box-shadow: 0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation23-28 {
+  box-shadow: 0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation24-29 {
+  box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12);
+}
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+@media print {
+  .MuiButtonBase-root {
+    color-adjust: exact;
+  }
+}
+  .MuiTypography-root {
+    margin: 0;
+  }
+  .MuiTypography-body2 {
+    font-size: 0.875rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.43;
+  }
+  .MuiTypography-body1 {
+    font-size: 16px;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 1.7;
+  }
+@media (max-width:576px) {
+  .MuiTypography-body1 {
+    font-size: 0.8rem;
+  }
+}
+  .MuiTypography-caption {
+    font-size: 0.75rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.66;
+  }
+  .MuiTypography-button {
+    font-size: 0.875rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 1.75;
+    text-transform: uppercase;
+  }
+  .MuiTypography-h1 {
+    font-size: 60px;
+    font-family: "Helvetica Neue", Inter;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+  .MuiTypography-h2 {
+    font-size: 24px;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 700;
+    line-height: 1.167;
+  }
+  .MuiTypography-h3 {
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 1.167;
+  }
+  .MuiTypography-h4 {
+    font-size: 1.5rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+    line-height: 1.167;
+  }
+  .MuiTypography-h5 {
+    font-size: 15px;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 700;
+    line-height: 1.167;
+  }
+  .MuiTypography-h6 {
+    font-size: 1.5rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 700;
+    line-height: 1.167;
+    letter-spacing: 2px;
+  }
+@media (max-width:576px) {
+  .MuiTypography-h6 {
+    font-size: 1.2rem;
+  }
+}
+  .MuiTypography-subtitle1 {
+    font-size: 14px;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 300;
+    line-height: 1.167;
+  }
+@media (max-width:576px) {
+  .MuiTypography-subtitle1 {
+    font-size: 0.7rem;
+  }
+}
+  .MuiTypography-subtitle2 {
+    font-size: 0.875rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 1.57;
+  }
+  .MuiTypography-overline {
+    font-size: 0.75rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 2.66;
+    text-transform: uppercase;
+  }
+  .MuiTypography-srOnly {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .MuiTypography-alignLeft {
+    text-align: left;
+  }
+  .MuiTypography-alignCenter {
+    text-align: center;
+  }
+  .MuiTypography-alignRight {
+    text-align: right;
+  }
+  .MuiTypography-alignJustify {
+    text-align: justify;
+  }
+  .MuiTypography-noWrap {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .MuiTypography-gutterBottom {
+    margin-bottom: 0.35em;
+  }
+  .MuiTypography-paragraph {
+    margin-bottom: 16px;
+  }
+  .MuiTypography-colorInherit {
+    color: inherit;
+  }
+  .MuiTypography-colorPrimary {
+    color: #0053FF;
+  }
+  .MuiTypography-colorSecondary {
+    color: #FFFFFF;
+  }
+  .MuiTypography-colorTextPrimary {
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .MuiTypography-colorTextSecondary {
+    color: rgba(0, 0, 0, 0.30);
+  }
+  .MuiTypography-colorError {
+    color: #dc3545;
+  }
+  .MuiTypography-displayInline {
+    display: inline;
+  }
+  .MuiTypography-displayBlock {
+    display: block;
+  }
+  .MuiTypography-root-69 {
+    margin: 0;
+  }
+  .MuiTypography-body2-70 {
+    font-size: 0.875rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.43;
+  }
+  .MuiTypography-body1-71 {
+    font-size: 12px;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .MuiTypography-caption-72 {
+    font-size: 0.75rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.66;
+  }
+  .MuiTypography-button-73 {
+    font-size: 0.875rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 1.75;
+    text-transform: uppercase;
+  }
+  .MuiTypography-h1-74 {
+    font-size: 6rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 300;
+    line-height: 1.167;
+  }
+  .MuiTypography-h2-75 {
+    font-size: 3.75rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  .MuiTypography-h3-76 {
+    font-size: 3rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.167;
+  }
+  .MuiTypography-h4-77 {
+    font-size: 2.125rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.235;
+  }
+  .MuiTypography-h5-78 {
+    font-size: 1.5rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.334;
+  }
+  .MuiTypography-h6-79 {
+    font-size: 1.25rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 1.6;
+  }
+  .MuiTypography-subtitle1-80 {
+    font-size: 1rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.75;
+  }
+  .MuiTypography-subtitle2-81 {
+    font-size: 0.875rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 1.57;
+  }
+  .MuiTypography-overline-82 {
+    font-size: 0.75rem;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 2.66;
+    text-transform: uppercase;
+  }
+  .MuiTypography-srOnly-83 {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .MuiTypography-alignLeft-84 {
+    text-align: left;
+  }
+  .MuiTypography-alignCenter-85 {
+    text-align: center;
+  }
+  .MuiTypography-alignRight-86 {
+    text-align: right;
+  }
+  .MuiTypography-alignJustify-87 {
+    text-align: justify;
+  }
+  .MuiTypography-noWrap-88 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .MuiTypography-gutterBottom-89 {
+    margin-bottom: 0.35em;
+  }
+  .MuiTypography-paragraph-90 {
+    margin-bottom: 16px;
+  }
+  .MuiTypography-colorInherit-91 {
+    color: inherit;
+  }
+  .MuiTypography-colorPrimary-92 {
+    color: #2F80ED;
+  }
+  .MuiTypography-colorSecondary-93 {
+    color: #f50057;
+  }
+  .MuiTypography-colorTextPrimary-94 {
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .MuiTypography-colorTextSecondary-95 {
+    color: rgba(0, 0, 0, 0.54);
+  }
+  .MuiTypography-colorError-96 {
+    color: #f44336;
+  }
+  .MuiTypography-displayInline-97 {
+    display: inline;
+  }
+  .MuiTypography-displayBlock-98 {
+    display: block;
+  }
+  .MuiButton-root {
+    color: rgba(0, 0, 0, 0.87);
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 50px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  .MuiButton-root:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  .MuiButton-root.Mui-disabled {
+    color: rgba(0, 0, 0, 0.26);
+  }
+@media (hover: none) {
+  .MuiButton-root:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-root:hover.Mui-disabled {
+    background-color: transparent;
+  }
+  .MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    text-transform: capitalize;
+    justify-content: inherit;
+  }
+  .MuiButton-text {
+    padding: 6px 8px;
+  }
+  .MuiButton-textPrimary {
+    color: #0053FF;
+  }
+  .MuiButton-textPrimary:hover {
+    background-color: rgba(0, 83, 255, 0.04);
+  }
+@media (hover: none) {
+  .MuiButton-textPrimary:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-textSecondary {
+    color: #FFFFFF;
+  }
+  .MuiButton-textSecondary:hover {
+    background-color: rgba(255, 255, 255, 0.04);
+  }
+@media (hover: none) {
+  .MuiButton-textSecondary:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-outlined {
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 5px 15px;
+    border-color: #fff;
+    border-radius: 32px;
+  }
+  .MuiButton-outlined.Mui-disabled {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  .MuiButton-outlinedPrimary {
+    color: #0053FF;
+    border: 1px solid #EAEAEA;
+  }
+  .MuiButton-outlinedPrimary:hover {
+    color: #fff;
+    border: 1px solid #0053FF;
+    background-color: #0053FF !important;
+  }
+@media (hover: none) {
+  .MuiButton-outlinedPrimary:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-outlinedSecondary {
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .MuiButton-outlinedSecondary:hover {
+    border: 1px solid #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.04);
+  }
+  .MuiButton-outlinedSecondary.Mui-disabled {
+    border: 1px solid rgba(0, 0, 0, 0.26);
+  }
+@media (hover: none) {
+  .MuiButton-outlinedSecondary:hover {
+    background-color: transparent;
+  }
+}
+  .MuiButton-contained {
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #fff;
+  }
+  .MuiButton-contained:hover {
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+    background-color: #d5d5d5;
+  }
+  .MuiButton-contained.Mui-focusVisible {
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+  }
+  .MuiButton-contained:active {
+    box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+  }
+  .MuiButton-contained.Mui-disabled {
+    color: rgba(0, 0, 0, 0.26);
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+@media (hover: none) {
+  .MuiButton-contained:hover {
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+  }
+}
+  .MuiButton-contained:hover.Mui-disabled {
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+  .MuiButton-containedPrimary {
+    color: #fff;
+    background-color: #0053FF;
+  }
+  .MuiButton-containedPrimary:hover {
+    background-color: rgb(0, 58, 178);
+  }
+@media (hover: none) {
+  .MuiButton-containedPrimary:hover {
+    background-color: #0053FF;
+  }
+}
+  .MuiButton-containedSecondary {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #FFFFFF;
+  }
+  .MuiButton-containedSecondary:hover {
+    background-color: rgb(178, 178, 178);
+  }
+@media (hover: none) {
+  .MuiButton-containedSecondary:hover {
+    background-color: #FFFFFF;
+  }
+}
+  .MuiButton-disableElevation {
+    box-shadow: none;
+  }
+  .MuiButton-disableElevation:hover {
+    box-shadow: none;
+  }
+  .MuiButton-disableElevation.Mui-focusVisible {
+    box-shadow: none;
+  }
+  .MuiButton-disableElevation:active {
+    box-shadow: none;
+  }
+  .MuiButton-disableElevation.Mui-disabled {
+    box-shadow: none;
+  }
+  .MuiButton-colorInherit {
+    color: inherit;
+    border-color: currentColor;
+  }
+  .MuiButton-textSizeSmall {
+    padding: 4px 5px;
+    font-size: 0.8125rem;
+  }
+  .MuiButton-textSizeLarge {
+    padding: 8px 11px;
+    font-size: 2.4rem;
+  }
+@media (max-width:576px) {
+  .MuiButton-textSizeLarge {
+    font-size: 2rem;
+  }
+}
+  .MuiButton-outlinedSizeSmall {
+    padding: 6px 9px;
+    font-size: 0.7rem;
+  }
+@media (max-width:576px) {
+  .MuiButton-outlinedSizeSmall {
+    padding: 3px 0px;
+  }
+}
+  .MuiButton-outlinedSizeLarge {
+    padding: 7px 21px;
+    font-size: 0.9375rem;
+  }
+  .MuiButton-containedSizeSmall {
+    padding: 4px 10px;
+    font-size: 0.8125rem;
+  }
+  .MuiButton-containedSizeLarge {
+    padding: 8px 22px;
+    font-size: 0.9375rem;
+  }
+  .MuiButton-sizeLarge {
+    height: 60px;
+    min-width: 140px;
+    border-radius: 5px;
+  }
+  .MuiButton-fullWidth {
+    width: 100%;
+  }
+  .MuiButton-startIcon {
+    display: inherit;
+    margin-left: -4px;
+    margin-right: 8px;
+  }
+  .MuiButton-startIcon.MuiButton-iconSizeSmall {
+    margin-left: -2px;
+  }
+  .MuiButton-endIcon {
+    display: inherit;
+    margin-left: 8px;
+    margin-right: -4px;
+  }
+  .MuiButton-endIcon.MuiButton-iconSizeSmall {
+    margin-right: -2px;
+  }
+  .MuiButton-iconSizeSmall > *:first-child {
+    font-size: 18px;
+  }
+  .MuiButton-iconSizeMedium > *:first-child {
+    font-size: 20px;
+  }
+  .MuiButton-iconSizeLarge > *:first-child {
+    font-size: 22px;
+  }
+@media print {
+  .MuiDialog-root {
+    position: absolute !important;
+  }
+}
+  .MuiDialog-scrollPaper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .MuiDialog-scrollBody {
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+  }
+  .MuiDialog-scrollBody:after {
+    width: 0;
+    height: 100%;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .MuiDialog-container {
+    height: 100%;
+    outline: 0;
+  }
+@media print {
+  .MuiDialog-container {
+    height: auto;
+  }
+}
+  .MuiDialog-paper {
+    margin: 32px;
+    position: relative;
+    overflow-y: auto;
+  }
+@media print {
+  .MuiDialog-paper {
+    box-shadow: none;
+    overflow-y: visible;
+  }
+}
+  .MuiDialog-paperScrollPaper {
+    display: flex;
+    max-height: calc(100% - 64px);
+    flex-direction: column;
+  }
+  .MuiDialog-paperScrollBody {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+  .MuiDialog-paperWidthFalse {
+    max-width: calc(100% - 64px);
+  }
+  .MuiDialog-paperWidthXs {
+    max-width: 444px;
+  }
+@media (max-width:507.95px) {
+  .MuiDialog-paperWidthXs.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+  .MuiDialog-paperWidthSm {
+    max-width: 800px;
+  }
+@media (max-width:663.95px) {
+  .MuiDialog-paperWidthSm.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+  .MuiDialog-paperWidthMd {
+    max-width: 1024px;
+  }
+@media (max-width:1087.95px) {
+  .MuiDialog-paperWidthMd.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+  .MuiDialog-paperWidthLg {
+    max-width: 1600px;
+  }
+@media (max-width:1663.95px) {
+  .MuiDialog-paperWidthLg.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+  .MuiDialog-paperWidthXl {
+    max-width: 1920px;
+  }
+@media (max-width:1983.95px) {
+  .MuiDialog-paperWidthXl.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+  .MuiDialog-paperFullWidth {
+    width: calc(100% - 64px);
+  }
+  .MuiDialog-paperFullScreen {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    max-width: 100%;
+    max-height: none;
+    border-radius: 0;
+  }
+  .MuiDialog-paperFullScreen.MuiDialog-paperScrollBody {
+    margin: 0;
+    max-width: 100%;
+  }
+@keyframes mui-auto-fill {}
+@keyframes mui-auto-fill-cancel {}
+  .MuiInputBase-root-47 {
+    color: rgba(0, 0, 0, 0.87);
+    cursor: text;
+    display: inline-flex;
+    position: relative;
+    font-size: 12px;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: Inter,Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.1876em;
+  }
+  .MuiInputBase-root-47.Mui-disabled {
+    color: rgba(0, 0, 0, 0.38);
+    cursor: default;
+  }
+  .MuiInputBase-multiline-52 {
+    padding: 6px 0 7px;
+  }
+  .MuiInputBase-multiline-52.MuiInputBase-marginDense-51 {
+    padding-top: 3px;
+  }
+  .MuiInputBase-fullWidth-54 {
+    width: 100%;
+  }
+  .MuiInputBase-input-55 {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    font-size: 14px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .MuiInputBase-input-55::-webkit-input-placeholder {
+    color: currentColor;
+    opacity: 0.42;
+    transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .MuiInputBase-input-55::-moz-placeholder {
+    color: currentColor;
+    opacity: 0.42;
+    transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .MuiInputBase-input-55:-ms-input-placeholder {
+    color: currentColor;
+    opacity: 0.42;
+    transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .MuiInputBase-input-55::-ms-input-placeholder {
+    color: currentColor;
+    opacity: 0.42;
+    transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .MuiInputBase-input-55:focus {
+    outline: 0;
+  }
+  .MuiInputBase-input-55:invalid {
+    box-shadow: none;
+  }
+  .MuiInputBase-input-55::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  .MuiInputBase-input-55.Mui-disabled {
+    opacity: 1;
+  }
+  .MuiInputBase-input-55:-webkit-autofill {
+    animation-name: mui-auto-fill;
+    animation-duration: 5000s;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl-48 .MuiInputBase-input-55::-webkit-input-placeholder {
+    opacity: 0 !important;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl-48 .MuiInputBase-input-55::-moz-placeholder {
+    opacity: 0 !important;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl-48 .MuiInputBase-input-55:-ms-input-placeholder {
+    opacity: 0 !important;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl-48 .MuiInputBase-input-55::-ms-input-placeholder {
+    opacity: 0 !important;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl-48 .MuiInputBase-input-55:focus::-webkit-input-placeholder {
+    opacity: 0.42;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl-48 .MuiInputBase-input-55:focus::-moz-placeholder {
+    opacity: 0.42;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl-48 .MuiInputBase-input-55:focus:-ms-input-placeholder {
+    opacity: 0.42;
+  }
+  label[data-shrink=false] + .MuiInputBase-formControl-48 .MuiInputBase-input-55:focus::-ms-input-placeholder {
+    opacity: 0.42;
+  }
+  .MuiInputBase-inputMarginDense-56 {
+    padding-top: 3px;
+  }
+  .MuiInputBase-inputMultiline-57 {
+    height: auto;
+    resize: none;
+    padding: 0;
+  }
+  .MuiInputBase-inputTypeSearch-58 {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+  }
+  .MuiFormControl-root-31 {
+    border: 0;
+    margin: 0;
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    min-width: 0;
+    flex-direction: column;
+    vertical-align: top;
+  }
+  .MuiFormControl-marginNormal-32 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+  .MuiFormControl-marginDense-33 {
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+  .MuiFormControl-fullWidth-34 {
+    width: 100%;
+  }
+  .MuiInputAdornment-root-62 {
+    height: 0.01em;
+    display: flex;
+    max-height: 2em;
+    align-items: center;
+    white-space: nowrap;
+  }
+  .MuiInputAdornment-filled-63.MuiInputAdornment-positionStart-64:not(.MuiInputAdornment-hiddenLabel-67) {
+    margin-top: 16px;
+  }
+  .MuiInputAdornment-positionStart-64 {
+    margin-right: 8px;
+  }
+  .MuiInputAdornment-positionEnd-65 {
+    margin-left: 8px;
+  }
+  .MuiInputAdornment-disablePointerEvents-66 {
+    pointer-events: none;
+  }
+  .jss108 {
+    top: -5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0 8px;
+    overflow: hidden;
+    position: absolute;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: inherit;
+    pointer-events: none;
+  }
+  .jss109 {
+    padding: 0;
+    text-align: left;
+    transition: width 150ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    line-height: 11px;
+  }
+  .jss110 {
+    width: auto;
+    height: 11px;
+    display: block;
+    padding: 0;
+    font-size: 0.75em;
+    max-width: 0.01px;
+    text-align: left;
+    transition: max-width 50ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    visibility: hidden;
+  }
+  .jss110 > span {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .jss111 {
+    max-width: 1000px;
+    transition: max-width 100ms cubic-bezier(0.0, 0, 0.2, 1) 50ms;
+  }
+  .MuiOutlinedInput-root-35 {
+    position: relative;
+    border-radius: 16px;
+  }
+  .MuiOutlinedInput-root-35:hover .MuiOutlinedInput-notchedOutline-41 {
+    border-color: rgba(0, 0, 0, 0.87);
+  }
+@media (hover: none) {
+  .MuiOutlinedInput-root-35:hover .MuiOutlinedInput-notchedOutline-41 {
+    border-color: rgba(0, 0, 0, 0.23);
+  }
+}
+  .MuiOutlinedInput-root-35.Mui-focused .MuiOutlinedInput-notchedOutline-41 {
+    border-color: #2F80ED;
+    border-width: 2px;
+  }
+  .MuiOutlinedInput-root-35.Mui-error .MuiOutlinedInput-notchedOutline-41 {
+    border-color: #f44336;
+  }
+  .MuiOutlinedInput-root-35.Mui-disabled .MuiOutlinedInput-notchedOutline-41 {
+    border-color: rgba(0, 0, 0, 0.26);
+  }
+  .MuiOutlinedInput-colorSecondary-36.Mui-focused .MuiOutlinedInput-notchedOutline-41 {
+    border-color: #f50057;
+  }
+  .MuiOutlinedInput-adornedStart-37 {
+    padding-left: 40px;
+  }
+  .MuiOutlinedInput-adornedEnd-38 {
+    padding-right: 40px;
+  }
+  .MuiOutlinedInput-multiline-40 {
+    padding: 18.5px 14px;
+  }
+  .MuiOutlinedInput-multiline-40.MuiOutlinedInput-marginDense-39 {
+    padding-top: 10.5px;
+    padding-bottom: 10.5px;
+  }
+  .MuiOutlinedInput-notchedOutline-41 {
+    border-color: transparent;
+  }
+  .MuiOutlinedInput-input-42 {
+    padding: 34px 50px;
+  }
+  .MuiOutlinedInput-input-42:-webkit-autofill {
+    border-radius: inherit;
+  }
+  .MuiOutlinedInput-inputMarginDense-43 {
+    padding-top: 10.5px;
+    padding-bottom: 10.5px;
+  }
+  .MuiOutlinedInput-inputMultiline-44 {
+    padding: 0;
+  }
+  .MuiOutlinedInput-inputAdornedStart-45 {
+    padding-left: 0;
+  }
+  .MuiOutlinedInput-inputAdornedEnd-46 {
+    padding-right: 0;
+  }
+
+</style></head><body><div id="__next"><div class="layout_container__2yT5o"><div class="layout_content__3EbwV"><div></div><main><div class="add_container__2YDgz"><div class="add_headContainer__y9_UT"><div class="add_headContainerContent__1niIC"><div class="header_headerContainer2__32SYb"><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined header_backButton__3cJU1" tabindex="0" type="button"><span class="MuiButton-label"><p class="MuiTypography-root header_buttonText__1IRLV MuiTypography-body1">Back</p></span></button><div class="header_space__2-ty2"></div><button class="MuiButtonBase-root MuiButton-root MuiButton-outlined header_accountButton2__3GJjZ MuiButton-disableElevation" tabindex="0" type="button"><span class="MuiButton-label"><p class="MuiTypography-root header_buttonText__1IRLV MuiTypography-body1">Connect Wallet</p></span></button></div><p class="MuiTypography-root add_selectPool__2zmS0 MuiTypography-body1">Select a Proposal</p><p class="MuiTypography-root add_choosePool__I-MdL MuiTypography-body1">Choose a proposal that you would like to offer rewards for below...</p></div><div class="add_searchField__3qm0X"><div class="MuiPaper-root-2 MuiPaper-elevation1-6 MuiPaper-rounded-3"><div class="MuiFormControl-root-31 MuiTextField-root-30 MuiFormControl-fullWidth-34"><div class="MuiInputBase-root-47 MuiOutlinedInput-root-35 MuiInputBase-fullWidth-54 MuiInputBase-formControl-48 MuiInputBase-adornedStart-49 MuiOutlinedInput-adornedStart-37 MuiInputBase-adornedEnd-50 MuiOutlinedInput-adornedEnd-38"><div class="MuiInputAdornment-root-62 MuiInputAdornment-positionStart-64"><p class="MuiTypography-root-69 add_searchInputAdnornment__WQLHm MuiTypography-body1-71">Search Vote:</p></div><input type="text" aria-invalid="false" placeholder="1, 2, 61" value="" class="MuiInputBase-input-55 MuiOutlinedInput-input-42 MuiInputBase-inputAdornedStart-59 MuiOutlinedInput-inputAdornedStart-45 MuiInputBase-inputAdornedEnd-60 MuiOutlinedInput-inputAdornedEnd-46"/><div class="MuiInputAdornment-root-62 MuiInputAdornment-positionEnd-65"><svg class="MuiSvgIcon-root-99" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></div><fieldset aria-hidden="true" style="padding-left:8px" class="jss108 MuiOutlinedInput-notchedOutline-41"><legend class="jss109" style="width:0.01px"><span>&#8203;</span></legend></fieldset></div></div></div></div></div><div><div class="add_tableHeader__jmrkt"><div class="add_tableHeaderRow__2eaUb"><div class="add_poolRow__tHDAk"><p class="MuiTypography-root add_tableHeaderText__EC6vx add_poolHeaderText__iB0A3 MuiTypography-body1">Vote ID</p></div><div class="add_typeRow__3zrE4"><p class="MuiTypography-root add_tableHeaderText__EC6vx MuiTypography-body1">Votes</p></div><div class="add_typeRow__3zrE4"><p class="MuiTypography-root add_tableHeaderText__EC6vx MuiTypography-body1">Quorum</p></div><div class="add_typeRow__3zrE4"><p class="MuiTypography-root add_tableHeaderText__EC6vx MuiTypography-body1">Vote Ends</p></div><div class="add_actionRow__219-P"><p class="MuiTypography-root add_tableHeaderText__EC6vx MuiTypography-body1">Action</p></div></div></div><div></div></div></div></main></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/addVote","query":{},"buildId":"t8sfQQwelijX7ZAa1spq5","nextExport":true,"autoExport":true,"isFallback":false}</script><script nomodule="" src="/_next/static/chunks/polyfills-ad30d1320810fa304e64.js"></script><script src="/_next/static/chunks/webpack-e20b507b9ac9d1410c6e.js" async=""></script><script src="/_next/static/chunks/framework.655df916c99592c26abe.js" async=""></script><script src="/_next/static/chunks/commons.b2cb681b3fc089041434.js" async=""></script><script src="/_next/static/chunks/main-79c26920968226f18fdc.js" async=""></script><script src="/_next/static/chunks/0975f2b1.c8834a08a1186abe0142.js" async=""></script><script src="/_next/static/chunks/b0fe1cb196a110106ce17308c9dd4965908076f6.286a4e9cbeceddd23a22.js" async=""></script><script src="/_next/static/chunks/c85d64946732f605d0270a61455b4623d9754b90.1498bb6ff00900086508.js" async=""></script><script src="/_next/static/chunks/pages/_app-94cb0d17ca130059d7d8.js" async=""></script><script src="/_next/static/chunks/75fc9c18.851b46342beeff380cfd.js" async=""></script><script src="/_next/static/chunks/5438ced7320515bfb1ccd73ffd4f55532982f9e4.c9feed9ab9f5d96532cf.js" async=""></script><script src="/_next/static/chunks/e6a58c2ea38825584fc312156e5f22ec8d2e9687.9362fa29b7b04efc9628.js" async=""></script><script src="/_next/static/chunks/pages/addVote-9bc1f637fc475ea81333.js" async=""></script><script src="/_next/static/t8sfQQwelijX7ZAa1spq5/_buildManifest.js" async=""></script><script src="/_next/static/t8sfQQwelijX7ZAa1spq5/_ssgManifest.js" async=""></script></body></html>
